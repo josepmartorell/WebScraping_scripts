@@ -16,6 +16,10 @@
 # dict["html"]
 # {"html":{
 #         "body":{
+#                 "nameOfOurData":{
+#                           "trailingPE":value,
+#                           "key2":value2
+#                            }
 #                 "form":data
 #                 }
 #        }
@@ -35,9 +39,23 @@ def findXPath(element, target, path):
     return ""
 
 
-from selenium import webdriver
+def findJsonPath(jsonObject, target, path, matchType):
+    if type(jsonObject) == matchType:
+        if target in jsonObject:
+            return path
+        for newKey in jsonObject:
+            #            print(path)
+            final = findJsonPath(jsonObject[newKey], target, path + "," + newKey, matchType)
+            if final != "":
+                return final
+    return ""
 
-browser = webdriver.Firefox(executable_path="/usr/local/bin/geckodriver")
+
+from selenium import webdriver
+import json
+import pandas as pd
+
+browser = webdriver.PhantomJS(executable_path="/usr/local/bin/phantomjs")
 browser.get(url)
 # print(browser.page_source)
 # elements = browser.find_elements_by_xpath("html/body/script")
@@ -59,5 +77,11 @@ browser.get(url)
 # print(element.get_attribute("textContent"))
 
 element = browser.find_element_by_xpath("html/body/script[1]")
-print(element.get_attribute("textContent"))
-browser.quit()
+tempData = element.get_attribute("textContent").strip("(this));\n")
+tempData = tempData.split("root.App.main = ")[1][:-3]
+jsonData = json.loads(tempData)
+matchType = type(jsonData)
+# print("Final path is:",findJsonPath(jsonData,"trailingPE","",matchType))
+
+finalData = jsonData["context"]["dispatcher"]["stores"]["QuoteSummaryStore"]["summaryDetail"]
+df = pd.DataFrame(data=finalData)
