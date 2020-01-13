@@ -1,13 +1,19 @@
 import requests
 from bs4 import BeautifulSoup
+from fake_useragent import UserAgent
 
+
+# Background on user-agents
+ua = UserAgent()
+header = {'user-agent':ua.firefox}
 
 def get_front_page():
     target = "https://news.ycombinator.com"
-    frontpage = requests.get(target)
-    if not frontpage.ok:
+    front_page = requests.get(target, headers=header, timeout=3)
+    print(header)
+    if not front_page.ok:
         raise RuntimeError("Can't access hacker news, you should go outside")
-    news_soup = BeautifulSoup(frontpage.text, "lxml")
+    news_soup = BeautifulSoup(front_page.text, "lxml")
     return news_soup
 
 
