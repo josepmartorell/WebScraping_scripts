@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2e364fb5-ad33-4c97-b85a-60d43f8a0dde" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1WRn8U3zaB8mi9hF4LGxZM1AqEg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/BeautifulSoup4_CodingBat.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="BeautifulSoup4_CodingBat" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="BeautifulSoup4_CodingBat" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/webScraping/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BeautifulSoup4_CodingBat.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e364fb5-ad33-4c97-b85a-60d43f8a0dde" name="Default Changelist" comment="" />
+      <created>1579121115844</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579121115844</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="453" y="146" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579121374084">
+      <screen x="70" y="27" width="1850" height="923" />
+    </state>
+    <state x="453" y="146" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1850.923@70.27.1850.923" timestamp="1579121374084" />
+    <state x="778" y="246" width="424" height="491" key="FileChooserDialogImpl" timestamp="1579121372049">
+      <screen x="70" y="27" width="1850" height="923" />
+    </state>
+    <state x="778" y="246" width="424" height="491" key="FileChooserDialogImpl/70.27.1850.923@70.27.1850.923" timestamp="1579121372049" />
+    <state width="594" height="763" key="GridCell.Tab.0.bottom" timestamp="1579123388812">
+      <screen x="70" y="27" width="1850" height="923" />
+    </state>
+    <state width="594" height="763" key="GridCell.Tab.0.bottom/70.27.1850.923@70.27.1850.923" timestamp="1579123388812" />
+    <state width="594" height="763" key="GridCell.Tab.0.center" timestamp="1579123388809">
+      <screen x="70" y="27" width="1850" height="923" />
+    </state>
+    <state width="594" height="763" key="GridCell.Tab.0.center/70.27.1850.923@70.27.1850.923" timestamp="1579123388809" />
+    <state width="594" height="763" key="GridCell.Tab.0.left" timestamp="1579123388809">
+      <screen x="70" y="27" width="1850" height="923" />
+    </state>
+    <state width="594" height="763" key="GridCell.Tab.0.left/70.27.1850.923@70.27.1850.923" timestamp="1579123388809" />
+    <state width="594" height="763" key="GridCell.Tab.0.right" timestamp="1579123388810">
+      <screen x="70" y="27" width="1850" height="923" />
+    </state>
+    <state width="594" height="763" key="GridCell.Tab.0.right/70.27.1850.923@70.27.1850.923" timestamp="1579123388810" />
+    <state x="484" y="123" width="1022" height="737" key="SettingsEditor" timestamp="1579121307444">
+      <screen x="70" y="27" width="1850" height="923" />
+    </state>
+    <state x="484" y="123" width="1022" height="737" key="SettingsEditor/70.27.1850.923@70.27.1850.923" timestamp="1579121307444" />
+  </component>
+</project>
