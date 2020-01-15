@@ -24,6 +24,10 @@ def target_url():
 
     print(soup.prettify())
 
+    with open("scraped.txt", "w", encoding="utf-8") as f:
+        f.write(soup.prettify())
+        f.close()
+
 
 if __name__ == '__main__':
     target_url()
