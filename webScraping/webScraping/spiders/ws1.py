@@ -3,6 +3,7 @@
 import logging
 
 import scrapy
+from scrapy.utils.response import open_in_browser
 
 
 class Ws1Spider(scrapy.Spider):
@@ -20,7 +21,9 @@ class Ws1Spider(scrapy.Spider):
             yield response.follow(url=link, callback=self.parse_country, meta={'country_name': name})
 
     def parse_country(self, response):
+        # open_in_browser(response)
         # logging.info(response.url)
+        # logging.info(response.status)
         self.country_name = response.request.meta['country_name']
         rows = response.xpath('//table')
 
@@ -55,3 +58,5 @@ class Ws1Spider(scrapy.Spider):
                 'year': year
 
             }
+# debugging: scrapy parse --spider=ws1 -c parse_country --meta='{\"country_name\":\"China\"}'
+# https://worldometers.info/world-population/population-by-country/
