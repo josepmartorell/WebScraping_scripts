@@ -1,0 +1,32 @@
+XPATH
+//div[@class='intro' or @class='outro']/p(text()
+//a/@href
+//a[start-with(@href, 'https')]
+//a[contains(@href, 'google')]
+//a[contains(text(), 'France')]
+//ul[@id='items']/li[1] 
+//ul[@id='items']/li[1 or 4]
+//ul[@id='items']/li[position() = 1 or position() = 4]
+//ul[@id='items']/li[position() = 1 or position() = last()]
+//ul[@id='items']/li[position() > 1]
+//p[@id='unique']/parent::node()
+//p[@id='unique']/ancestor::node()
+//p[@id='unique']/ancestor-or-self::node()
+//p[@id='unique']/preceding::node()
+//p[@id='unique']/preceding::h1
+//p[@id='unique']/preceding::body
+//p[@id='outside']/preceding-sibling::node()
+//div[@class='intro']/child::node()
+//div[@class='intro']/following::node()
+//div[@class='intro']/following-sibling::node()
+//div[@class='intro']/descendant::node()
+
+axisName::elementName
+axes parent ancestor preceding precedint-sibling
+axes child following following-sibling descendant
+
+
+NORMALIZED SPACES section 9-2
+'duration': response.xpath("(//time[1]/text()").get()
+->
+'duration': response.xpath("normalize-space((//time[1]/text())").get()
