@@ -8,12 +8,11 @@ class ComputerdealsSpider(scrapy.Spider):
 
     def remove_characters(self, value):
         return value.strip('\xa0')
-    
+
     def start_requests(self):
         yield SeleniumRequest(
             url='https://slickdeals.net/computer-deals/',
             wait_time=3,
-            screenshot=True,
             callback=self.parse
         )
 
@@ -23,7 +22,8 @@ class ComputerdealsSpider(scrapy.Spider):
             yield {
                 'name': product.xpath(".//a[@class='itemTitle']/text()").get(),
                 'link': product.xpath(".//a[@class='itemTitle']/@href").get(),
-                'store_name': self.remove_characters(product.xpath("normalize-space(.//span[@class='itemStore']/text())").get()),
+                'store_name': self.remove_characters(
+                    product.xpath("normalize-space(.//span[@class='itemStore']/text())").get()),
                 'price': product.xpath("normalize-space(.//div[@class='itemPrice  wide ']/text())").get()
             }
 
