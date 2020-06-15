@@ -1,8 +1,5 @@
-# -*- coding: utf-8 -*-
-
-import logging
-
 import scrapy
+import logging
 from scrapy.utils.response import open_in_browser
 
 
@@ -11,19 +8,21 @@ class Ws1Spider(scrapy.Spider):
     allowed_domains = ['www.worldometers.info']
     start_urls = ['https://worldometers.info/world-population/population-by-country/']
 
+    def __init__(self, name=None, **kwargs):
+        super().__init__(name=None, **kwargs)
+        self.country_name = name,
+
     def parse(self, response):
         countries = response.xpath('//td/a')
         for country in countries:
             name = country.xpath('.//text()').get(),
-            self.country_name = name,
             link = country.xpath('.//@href').get()
-            # yield response.follow(url=link)
             yield response.follow(url=link, callback=self.parse_country, meta={'country_name': name})
 
     def parse_country(self, response):
-        # open_in_browser(response)
-        # logging.info(response.url)
-        # logging.info(response.status)
+        # open_in_browser(response) # use caution with it
+        logging.info(response.url)
+        logging.info(response.status)
         self.country_name = response.request.meta['country_name']
         rows = response.xpath('//table')
 

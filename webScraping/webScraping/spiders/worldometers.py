@@ -1,6 +1,4 @@
-# -*- coding: utf-8 -*-
 import scrapy
-import logging
 
 
 class CountriesSpider(scrapy.Spider):
