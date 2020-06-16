@@ -1,14 +1,16 @@
 # -*- coding: utf-8 -*-
+
 import scrapy
 from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
 
 
 class BestMoviesSpider(CrawlSpider):
-    name = 'best_movies'
+    name = 'ws3'
     allowed_domains = ['imdb.com']
 
-    user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36'
+    user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ' \
+                 'Chrome/76.0.3809.100 Safari/537.36 '
 
     def start_requests(self):
         yield scrapy.Request(url='https://www.imdb.com/search/title/?groups=top_250&sort=user_rating', headers={
@@ -16,8 +18,10 @@ class BestMoviesSpider(CrawlSpider):
         })
 
     rules = (
-        Rule(LinkExtractor(restrict_xpaths="//h3[@class='lister-item-header']/a"), callback='parse_item', follow=True, process_request='set_user_agent'),
-        Rule(LinkExtractor(restrict_xpaths="(//a[@class='lister-page-next next-page'])[2]"), process_request='set_user_agent')
+        Rule(LinkExtractor(
+            restrict_xpaths="//h3[@class='lister-item-header']/a"), callback='parse_item', follow=True, process_request='set_user_agent'),
+        Rule(LinkExtractor(
+            restrict_xpaths="(//a[@class='lister-page-next next-page'])[2]"), process_request='set_user_agent')
     )
 
     def set_user_agent(self, request):
