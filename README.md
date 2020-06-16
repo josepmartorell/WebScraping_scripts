@@ -13,11 +13,11 @@ Web scraping is the art of picking out data from a website by looking at the HTM
 
 Services Catalog | Description | Price
 ---------------- | ----------- | -----
-Python Web Scraping | Budget for the project based on a previously stipulated documented report | Free or charges
-Image Processing | Perform mass image extraction for further analysis using AWS Rekognition | 74.00 € 1 week
-Scraping Bots | Deploying spiders on the scrapinghub platform *_Includes Splash technology_* | 714.00 € 1 project
-Web Scrapping | Track online web stores to get product descriptions and product prices | 49.00 € 1 target 
-Web Crawler | Track online web stores to monitor changes in stock and product prices | 41.00 € 1 tracker 
+Python Web Scraping | Budget for the project based on a previously documented report | Free or charges
+Image Processing | Perform mass image extraction for further analysis: _AWS Rekognition_ | 74.00 € week
+Scraping Bots | Deploying spiders on the scrapinghub platform *_Includes Splash technology_* | 714.00 €
+Web Scrapping | Track online web stores to get product descriptions and product prices | 49.00 € target 
+Web Crawler | Track online web stores to monitor changes in stock and product prices | 41.00 € tracker 
 Data Extraction
 Data Filtering
 Data Formatting:
