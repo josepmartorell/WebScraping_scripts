@@ -22,7 +22,7 @@ Data Extraction | Advice and plan for preparing data capture reports | Free budg
 Data Filtering | Advice and plan to prepare filter process reports | Free budget
 Data Formatting | Advice and plan to prepare reports of rendering formats _see check-list!_ | Free budget
 Machine learning Models | Backing-batch.csv to predict potencial customern purchases! | 31.00 € batch 
-Programming tasks | Automation of repetitive tasks that translates into a saving of time and effort! | 744.00 € batch
+Programming tasks | Automation of repetitive tasks that translates into a saving of time and effort! | 744.0 € batch
 
 #### rendered formats:
 - [ ] csv 
