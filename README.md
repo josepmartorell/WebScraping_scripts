@@ -21,8 +21,8 @@ Web Crawler | Track online web stores to monitor changes in stock and product pr
 Data Extraction | Advice and plan for preparing data capture reports | Free budget
 Data Filtering | Advice and plan to prepare filter process reports | Free budget
 Data Formatting | Advice and plan to prepare reports of rendering formats _see check-list!_ | Free budget
-Machine learning Models | Backing-batch.csv to predict potencial customern purchases! | 31.00 € batch 
-Programming tasks |  | 90.0 € batch
+Machine learning | Backing-batch.csv to predict potencial customern purchases! | 31.00 € batch 
+Programming tasks | Automation project for repetitive office tasks _-office suite project_ | Open price
 
 #### rendered formats:
 - [ ] csv 
