@@ -1,0 +1,15 @@
+SPY http://www.restel.es
+SPY https://www.bedsonline.com/home/es-es
+SPY https://b2b.solole.es
+SPY https://pro.w2m.travel
+API https://en.wikipedia.org/wiki/List_of_S%26P_500_companies
+API http://finance.yahoo.com/quote/"+tickerSymbol +"?p="+tickerSymbol
+API https://openweathermap.org/
+SPY http://www.consumerreports.org/cro/a-to-z-index/products/index.htm
+SPY http://codingbat.com/java
+SPY https://www.instagram.com
+SPY https://worldometers.info/world-population/population-by-country/
+SPY https://www.tinydeal.com/specials.html
+SPY https://www.imdb.com/search/title/?groups=top_250&sort=user_rating 
+SPY https://www.livecoin.net/en
+SPY https://slickdeals.net/computer-deals/
