@@ -11,14 +11,14 @@ https://www.apache.org/licenses/LICENSE-2.0
 Services Catalog | Description | Price
 ---------------- | ----------- | -----
 Python Web Scraping | Budget for the project based on a previously documented report | Free budget
-Image Processing | Perform mass image extraction for further analysis: _AWS Rekognition_ | 74 € week
-Scraping Bots | Deploying spiders on the scrapinghub platform *_Includes Splash technology_* | 714 € project
-Web Scrapping | Track online web stores to get product descriptions and product prices | 49 € target 
-Web Crawler | Track online web stores to monitor changes in stock and product prices | 41 € tracker 
+Image Processing | Perform mass image extraction for further analysis: _AWS Rekognition_ | 74.00 € week
+Scraping Bots | Deploying spiders on scrapinghub platform *_Includes Splash technology_* | 714.00 € project
+Web Scrapping | Track online web stores to get product descriptions and product prices | 49.00 € target 
+Web Crawler | Track online web stores to monitor changes in stock and product prices | 41.00 € tracker 
 Data Extraction | Advice and plan for preparing data capture reports | Free budget
 Data Filtering | Advice and plan to prepare filter process reports | Free budget
 Data Formatting | Advice and plan to prepare reports of rendering formats _see check-list!_ | Free budget
-Machine learning | Backing-batch.csv to predict potencial customern purchases! | 31 € batch 
+Machine learning | Backing-batch.csv to predict potencial customern purchases! | 31.00 € batch 
 Programming tasks | Automation project for repetitive office tasks _-office suite project_ | Open price
 
 #### rendered formats:
@@ -26,6 +26,7 @@ Programming tasks | Automation project for repetitive office tasks _-office suit
 - [ ] json
 - [ ] xml
 - [ ] xlsx
+- [ ] html
 - [ ] sqlite3
 - [ ] mysql
 - [ ] postgresql
