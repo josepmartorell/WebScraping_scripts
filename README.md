@@ -12,7 +12,7 @@ Services Catalog | Description | Price
 ---------------- | ----------- | -----
 Python Web Scraping | Budget for the project based on a previously documented report | Free budget
 Image Processing | Perform mass image extraction for further analysis: _AWS Rekognition_ | 74.00 € week
-Scraping Bots | Deploying spiders on scrapinghub platform *_Includes Splash technology_* | 714.00 € project
+Scraping Bots | Deploying spiders on the scrapinghub platform *_Includes Splash technology_* | 714.00 € project
 Web Scrapping | Track online web stores to get product descriptions and product prices | 49.00 € target 
 Web Crawler | Track online web stores to monitor changes in stock and product prices | 41.00 € tracker 
 Data Extraction | Advice and plan for preparing data capture reports | Free budget
