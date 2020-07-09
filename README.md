@@ -26,7 +26,6 @@ Programming tasks | Automation project for repetitive office tasks _-office suit
 - [ ] json
 - [ ] xml
 - [ ] xlsx
-- [ ] html
 - [ ] sqlite3
 - [ ] mysql
 - [ ] postgresql
