@@ -10,7 +10,7 @@ https://www.apache.org/licenses/LICENSE-2.0
 
 Services Catalog | Description | Price
 ---------------- | ----------- | -----
-Python Project | Budget for the project based on a previously documented report | Free budget
+Python Projects | Budget for the project based on a previously documented report | Free budget
 Image Processing | Perform mass image extraction for further analysis: _AWS Rekognition_ | 74.00 € week
 Scraping Bots | Deploying spiders on the scrapinghub platform *_Inc. Splash technology_* | 714.00 € project
 Web Scraping | Track online web stores to get product descriptions and product prices | 49.00 € target 
